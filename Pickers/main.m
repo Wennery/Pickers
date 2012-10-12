@@ -13,6 +13,7 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+	//where is the change?
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([WJAppDelegate class]));
     }
 }
