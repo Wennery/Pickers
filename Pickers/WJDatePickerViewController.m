@@ -13,6 +13,21 @@
 @end
 
 @implementation WJDatePickerViewController
+@synthesize datePicker;
+
+- (IBAction)buttonPressed
+{
+    NSDate *selected = [datePicker date];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"dd, MM, yyyy HH:mm"];
+    NSLocale *cnLocale = [[NSLocale alloc] initWithLocaleIdentifier:@"cn_CN"];
+    [dateFormatter setLocale:cnLocale];
+    NSString *time = [dateFormatter stringFromDate:selected];
+    NSString *message = [[NSString alloc] initWithFormat:@"The date and time you selected is: %@", time];
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"Date and Time Selected" message:message delegate:nil cancelButtonTitle:@"Yes，I did." otherButtonTitles:@"No, I didn't", @"Of course you did",nil];
+    [alert show];
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +42,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSDate *now = [NSDate date];
+    [datePicker setDate:now animated:NO];
 }
 
 - (void)didReceiveMemoryWarning
