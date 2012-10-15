@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401C3CFE162BD83700523EEF /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 401C3CFC162BD83700523EEF /* crunch.wav */; };
+		401C3CFF162BD83700523EEF /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 401C3CFD162BD83700523EEF /* win.wav */; };
+		401C3D02162BEA8F00523EEF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 401C3D01162BEA8F00523EEF /* AudioToolbox.framework */; };
 		4077D39D1625AC8700FD69BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077D39C1625AC8700FD69BD /* UIKit.framework */; };
 		4077D39F1625AC8700FD69BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077D39E1625AC8700FD69BD /* Foundation.framework */; };
 		4077D3A11625AC8700FD69BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4077D3A01625AC8700FD69BD /* CoreGraphics.framework */; };
@@ -32,9 +35,19 @@
 		4077D3F31625B21300FD69BD /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4077D3EE1625B21300FD69BD /* singleicon.png */; };
 		4077D3F41625B21300FD69BD /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4077D3EF1625B21300FD69BD /* toolicon.png */; };
 		4077D3F61625B27C00FD69BD /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4077D3F51625B27C00FD69BD /* TabBarController.xib */; };
+		40B6EE07162AEC8C0069D93B /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE01162AEC8C0069D93B /* apple.png */; };
+		40B6EE08162AEC8C0069D93B /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE02162AEC8C0069D93B /* bar.png */; };
+		40B6EE09162AEC8C0069D93B /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE03162AEC8C0069D93B /* cherry.png */; };
+		40B6EE0A162AEC8C0069D93B /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE04162AEC8C0069D93B /* crown.png */; };
+		40B6EE0B162AEC8C0069D93B /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE05162AEC8C0069D93B /* lemon.png */; };
+		40B6EE0C162AEC8C0069D93B /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B6EE06162AEC8C0069D93B /* seven.png */; };
+		40DF90BD162A9F7A000DAFAD /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40DF90BC162A9F7A000DAFAD /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		401C3CFC162BD83700523EEF /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		401C3CFD162BD83700523EEF /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		401C3D01162BEA8F00523EEF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4077D3981625AC8700FD69BD /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4077D39C1625AC8700FD69BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4077D39E1625AC8700FD69BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +82,13 @@
 		4077D3EE1625B21300FD69BD /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		4077D3EF1625B21300FD69BD /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		4077D3F51625B27C00FD69BD /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		40B6EE01162AEC8C0069D93B /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		40B6EE02162AEC8C0069D93B /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		40B6EE03162AEC8C0069D93B /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		40B6EE04162AEC8C0069D93B /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		40B6EE05162AEC8C0069D93B /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		40B6EE06162AEC8C0069D93B /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		40DF90BC162A9F7A000DAFAD /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401C3D02162BEA8F00523EEF /* AudioToolbox.framework in Frameworks */,
 				4077D39D1625AC8700FD69BD /* UIKit.framework in Frameworks */,
 				4077D39F1625AC8700FD69BD /* Foundation.framework in Frameworks */,
 				4077D3A11625AC8700FD69BD /* CoreGraphics.framework in Frameworks */,
@@ -85,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401C3CFB162BD83700523EEF /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				401C3CFC162BD83700523EEF /* crunch.wav */,
+				401C3CFD162BD83700523EEF /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
+			sourceTree = "<group>";
+		};
 		4077D38D1625AC8700FD69BD = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +135,7 @@
 		4077D39B1625AC8700FD69BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				401C3D01162BEA8F00523EEF /* AudioToolbox.framework */,
 				4077D39C1625AC8700FD69BD /* UIKit.framework */,
 				4077D39E1625AC8700FD69BD /* Foundation.framework */,
 				4077D3A01625AC8700FD69BD /* CoreGraphics.framework */,
@@ -141,6 +172,9 @@
 		4077D3A31625AC8700FD69BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				401C3CFB162BD83700523EEF /* Custom Picker Sounds */,
+				40B6EE00162AEC8C0069D93B /* Custom Picker Images */,
+				40DF90BC162A9F7A000DAFAD /* statedictionary.plist */,
 				4077D3EB1625B21300FD69BD /* clockicon.png */,
 				4077D3EC1625B21300FD69BD /* dependenticon.png */,
 				4077D3ED1625B21300FD69BD /* doubleicon.png */,
@@ -155,6 +189,19 @@
 				4077D3B21625AC8700FD69BD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40B6EE00162AEC8C0069D93B /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				40B6EE01162AEC8C0069D93B /* apple.png */,
+				40B6EE02162AEC8C0069D93B /* bar.png */,
+				40B6EE03162AEC8C0069D93B /* cherry.png */,
+				40B6EE04162AEC8C0069D93B /* crown.png */,
+				40B6EE05162AEC8C0069D93B /* lemon.png */,
+				40B6EE06162AEC8C0069D93B /* seven.png */,
+			);
+			path = "Custom Picker Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +271,15 @@
 				4077D3F31625B21300FD69BD /* singleicon.png in Resources */,
 				4077D3F41625B21300FD69BD /* toolicon.png in Resources */,
 				4077D3F61625B27C00FD69BD /* TabBarController.xib in Resources */,
+				40DF90BD162A9F7A000DAFAD /* statedictionary.plist in Resources */,
+				40B6EE07162AEC8C0069D93B /* apple.png in Resources */,
+				40B6EE08162AEC8C0069D93B /* bar.png in Resources */,
+				40B6EE09162AEC8C0069D93B /* cherry.png in Resources */,
+				40B6EE0A162AEC8C0069D93B /* crown.png in Resources */,
+				40B6EE0B162AEC8C0069D93B /* lemon.png in Resources */,
+				40B6EE0C162AEC8C0069D93B /* seven.png in Resources */,
+				401C3CFE162BD83700523EEF /* crunch.wav in Resources */,
+				401C3CFF162BD83700523EEF /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +405,7 @@
 				4077D3B81625AC8700FD69BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
